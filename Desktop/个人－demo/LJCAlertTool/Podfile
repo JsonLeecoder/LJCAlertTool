@@ -1,0 +1,5 @@
+platform  :ios,'7.0'
+target:LJCAlertTool do
+pod 'BaiduMapKit'
+pod 'MBProgressHUD', '~> 0.9.1'
+end             

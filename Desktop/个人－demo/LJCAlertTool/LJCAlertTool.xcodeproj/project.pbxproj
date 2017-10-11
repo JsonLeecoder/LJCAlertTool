@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		320287761E246D550065065B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320287751E246D550065065B /* CoreLocation.framework */; };
+		32175CE31ED838DB008656BB /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 32175CE21ED838DB008656BB /* UIViewController+HUD.m */; };
+		32175CE51ED83E92008656BB /* timg.gif in Resources */ = {isa = PBXBuildFile; fileRef = 32175CE41ED83E92008656BB /* timg.gif */; };
+		32175CE81ED84237008656BB /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 32175CE71ED84237008656BB /* UIImage+GIF.m */; };
+		32886AEB1E23783500EEC9FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32886AEA1E23783500EEC9FD /* main.m */; };
+		32886AEE1E23783500EEC9FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32886AED1E23783500EEC9FD /* AppDelegate.m */; };
+		32886AF11E23783500EEC9FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32886AF01E23783500EEC9FD /* ViewController.m */; };
+		32886AF41E23783500EEC9FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32886AF21E23783500EEC9FD /* Main.storyboard */; };
+		32886AF61E23783500EEC9FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32886AF51E23783500EEC9FD /* Assets.xcassets */; };
+		32886AF91E23783500EEC9FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32886AF71E23783500EEC9FD /* LaunchScreen.storyboard */; };
+		32886B041E23783500EEC9FD /* LJCAlertToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32886B031E23783500EEC9FD /* LJCAlertToolTests.m */; };
+		32886B0F1E23783500EEC9FD /* LJCAlertToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32886B0E1E23783500EEC9FD /* LJCAlertToolUITests.m */; };
+		32886B1E1E23787F00EEC9FD /* AlertToolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32886B1D1E23787F00EEC9FD /* AlertToolViewController.m */; };
+		32886B211E23840500EEC9FD /* AlertTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 32886B201E23840500EEC9FD /* AlertTools.m */; };
+		32886B271E23932B00EEC9FD /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 32886B231E23932B00EEC9FD /* LICENSE */; };
+		32886B281E23932B00EEC9FD /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 32886B241E23932B00EEC9FD /* README.md */; };
+		32886B291E23932B00EEC9FD /* UIAlertView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 32886B261E23932B00EEC9FD /* UIAlertView+Block.m */; };
+		60EB50582DF525C41DC9AB38 /* libPods-LJCAlertTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A051ADD3FF7F67D224DA6BB7 /* libPods-LJCAlertTool.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32886B001E23783500EEC9FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32886ADE1E23783500EEC9FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32886AE51E23783500EEC9FD;
+			remoteInfo = LJCAlertTool;
+		};
+		32886B0B1E23783500EEC9FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32886ADE1E23783500EEC9FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32886AE51E23783500EEC9FD;
+			remoteInfo = LJCAlertTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		078EB22D386936845C9EA60B /* Pods-LJCAlertTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJCAlertTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LJCAlertTool/Pods-LJCAlertTool.debug.xcconfig"; sourceTree = "<group>"; };
+		320287751E246D550065065B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		32175CE11ED838DB008656BB /* UIViewController+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUD.h"; sourceTree = "<group>"; };
+		32175CE21ED838DB008656BB /* UIViewController+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
+		32175CE41ED83E92008656BB /* timg.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = timg.gif; sourceTree = "<group>"; };
+		32175CE61ED84237008656BB /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		32175CE71ED84237008656BB /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		32886AE61E23783500EEC9FD /* LJCAlertTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJCAlertTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32886AEA1E23783500EEC9FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32886AEC1E23783500EEC9FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32886AED1E23783500EEC9FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32886AEF1E23783500EEC9FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		32886AF01E23783500EEC9FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		32886AF31E23783500EEC9FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32886AF51E23783500EEC9FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32886AF81E23783500EEC9FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32886AFA1E23783500EEC9FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32886AFF1E23783500EEC9FD /* LJCAlertToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJCAlertToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32886B031E23783500EEC9FD /* LJCAlertToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJCAlertToolTests.m; sourceTree = "<group>"; };
+		32886B051E23783500EEC9FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32886B0A1E23783500EEC9FD /* LJCAlertToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJCAlertToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32886B0E1E23783500EEC9FD /* LJCAlertToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJCAlertToolUITests.m; sourceTree = "<group>"; };
+		32886B101E23783500EEC9FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32886B1C1E23787F00EEC9FD /* AlertToolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertToolViewController.h; sourceTree = "<group>"; };
+		32886B1D1E23787F00EEC9FD /* AlertToolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertToolViewController.m; sourceTree = "<group>"; };
+		32886B1F1E23840500EEC9FD /* AlertTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertTools.h; sourceTree = "<group>"; };
+		32886B201E23840500EEC9FD /* AlertTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertTools.m; sourceTree = "<group>"; };
+		32886B231E23932B00EEC9FD /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		32886B241E23932B00EEC9FD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		32886B251E23932B00EEC9FD /* UIAlertView+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Block.h"; sourceTree = "<group>"; };
+		32886B261E23932B00EEC9FD /* UIAlertView+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Block.m"; sourceTree = "<group>"; };
+		79D729FDAD0E57998F7F79E8 /* Pods-LJCAlertTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LJCAlertTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-LJCAlertTool/Pods-LJCAlertTool.release.xcconfig"; sourceTree = "<group>"; };
+		A051ADD3FF7F67D224DA6BB7 /* libPods-LJCAlertTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LJCAlertTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32886AE31E23783500EEC9FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320287761E246D550065065B /* CoreLocation.framework in Frameworks */,
+				60EB50582DF525C41DC9AB38 /* libPods-LJCAlertTool.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32886AFC1E23783500EEC9FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32886B071E23783500EEC9FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		250E6EFFB490ECBBBAB0D0E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				078EB22D386936845C9EA60B /* Pods-LJCAlertTool.debug.xcconfig */,
+				79D729FDAD0E57998F7F79E8 /* Pods-LJCAlertTool.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		320287741E246D550065065B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				320287751E246D550065065B /* CoreLocation.framework */,
+				A051ADD3FF7F67D224DA6BB7 /* libPods-LJCAlertTool.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32886ADD1E23783500EEC9FD = {
+			isa = PBXGroup;
+			children = (
+				32886AE81E23783500EEC9FD /* LJCAlertTool */,
+				32886B021E23783500EEC9FD /* LJCAlertToolTests */,
+				32886B0D1E23783500EEC9FD /* LJCAlertToolUITests */,
+				32886AE71E23783500EEC9FD /* Products */,
+				320287741E246D550065065B /* Frameworks */,
+				250E6EFFB490ECBBBAB0D0E4 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		32886AE71E23783500EEC9FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32886AE61E23783500EEC9FD /* LJCAlertTool.app */,
+				32886AFF1E23783500EEC9FD /* LJCAlertToolTests.xctest */,
+				32886B0A1E23783500EEC9FD /* LJCAlertToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32886AE81E23783500EEC9FD /* LJCAlertTool */ = {
+			isa = PBXGroup;
+			children = (
+				32886AEC1E23783500EEC9FD /* AppDelegate.h */,
+				32886AED1E23783500EEC9FD /* AppDelegate.m */,
+				32886B1C1E23787F00EEC9FD /* AlertToolViewController.h */,
+				32886B1D1E23787F00EEC9FD /* AlertToolViewController.m */,
+				32886B1F1E23840500EEC9FD /* AlertTools.h */,
+				32886B201E23840500EEC9FD /* AlertTools.m */,
+				32175CE11ED838DB008656BB /* UIViewController+HUD.h */,
+				32175CE21ED838DB008656BB /* UIViewController+HUD.m */,
+				32175CE61ED84237008656BB /* UIImage+GIF.h */,
+				32175CE71ED84237008656BB /* UIImage+GIF.m */,
+				32175CE41ED83E92008656BB /* timg.gif */,
+				32886B221E23932B00EEC9FD /* UIAlertView+Block */,
+				32886AF21E23783500EEC9FD /* Main.storyboard */,
+				32886AF51E23783500EEC9FD /* Assets.xcassets */,
+				32886AF71E23783500EEC9FD /* LaunchScreen.storyboard */,
+				32886AFA1E23783500EEC9FD /* Info.plist */,
+				32886AE91E23783500EEC9FD /* Supporting Files */,
+			);
+			path = LJCAlertTool;
+			sourceTree = "<group>";
+		};
+		32886AE91E23783500EEC9FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32886AEF1E23783500EEC9FD /* ViewController.h */,
+				32886AF01E23783500EEC9FD /* ViewController.m */,
+				32886AEA1E23783500EEC9FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32886B021E23783500EEC9FD /* LJCAlertToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				32886B031E23783500EEC9FD /* LJCAlertToolTests.m */,
+				32886B051E23783500EEC9FD /* Info.plist */,
+			);
+			path = LJCAlertToolTests;
+			sourceTree = "<group>";
+		};
+		32886B0D1E23783500EEC9FD /* LJCAlertToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32886B0E1E23783500EEC9FD /* LJCAlertToolUITests.m */,
+				32886B101E23783500EEC9FD /* Info.plist */,
+			);
+			path = LJCAlertToolUITests;
+			sourceTree = "<group>";
+		};
+		32886B221E23932B00EEC9FD /* UIAlertView+Block */ = {
+			isa = PBXGroup;
+			children = (
+				32886B231E23932B00EEC9FD /* LICENSE */,
+				32886B241E23932B00EEC9FD /* README.md */,
+				32886B251E23932B00EEC9FD /* UIAlertView+Block.h */,
+				32886B261E23932B00EEC9FD /* UIAlertView+Block.m */,
+			);
+			path = "UIAlertView+Block";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32886AE51E23783500EEC9FD /* LJCAlertTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32886B131E23783500EEC9FD /* Build configuration list for PBXNativeTarget "LJCAlertTool" */;
+			buildPhases = (
+				2E5F75FF76B9ECDEF3F4D50E /* [CP] Check Pods Manifest.lock */,
+				32886AE21E23783500EEC9FD /* Sources */,
+				32886AE31E23783500EEC9FD /* Frameworks */,
+				32886AE41E23783500EEC9FD /* Resources */,
+				F0A3038CF511DF204074185F /* [CP] Embed Pods Frameworks */,
+				52C15FA3A590C0CD98FE7718 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LJCAlertTool;
+			productName = LJCAlertTool;
+			productReference = 32886AE61E23783500EEC9FD /* LJCAlertTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32886AFE1E23783500EEC9FD /* LJCAlertToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32886B161E23783500EEC9FD /* Build configuration list for PBXNativeTarget "LJCAlertToolTests" */;
+			buildPhases = (
+				32886AFB1E23783500EEC9FD /* Sources */,
+				32886AFC1E23783500EEC9FD /* Frameworks */,
+				32886AFD1E23783500EEC9FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32886B011E23783500EEC9FD /* PBXTargetDependency */,
+			);
+			name = LJCAlertToolTests;
+			productName = LJCAlertToolTests;
+			productReference = 32886AFF1E23783500EEC9FD /* LJCAlertToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32886B091E23783500EEC9FD /* LJCAlertToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32886B191E23783500EEC9FD /* Build configuration list for PBXNativeTarget "LJCAlertToolUITests" */;
+			buildPhases = (
+				32886B061E23783500EEC9FD /* Sources */,
+				32886B071E23783500EEC9FD /* Frameworks */,
+				32886B081E23783500EEC9FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32886B0C1E23783500EEC9FD /* PBXTargetDependency */,
+			);
+			name = LJCAlertToolUITests;
+			productName = LJCAlertToolUITests;
+			productReference = 32886B0A1E23783500EEC9FD /* LJCAlertToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32886ADE1E23783500EEC9FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = jiachen;
+				TargetAttributes = {
+					32886AE51E23783500EEC9FD = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9LQYCD8ZN3;
+						ProvisioningStyle = Automatic;
+					};
+					32886AFE1E23783500EEC9FD = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9LQYCD8ZN3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 32886AE51E23783500EEC9FD;
+					};
+					32886B091E23783500EEC9FD = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9LQYCD8ZN3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 32886AE51E23783500EEC9FD;
+					};
+				};
+			};
+			buildConfigurationList = 32886AE11E23783500EEC9FD /* Build configuration list for PBXProject "LJCAlertTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32886ADD1E23783500EEC9FD;
+			productRefGroup = 32886AE71E23783500EEC9FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32886AE51E23783500EEC9FD /* LJCAlertTool */,
+				32886AFE1E23783500EEC9FD /* LJCAlertToolTests */,
+				32886B091E23783500EEC9FD /* LJCAlertToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32886AE41E23783500EEC9FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32886AF91E23783500EEC9FD /* LaunchScreen.storyboard in Resources */,
+				32886AF61E23783500EEC9FD /* Assets.xcassets in Resources */,
+				32175CE51ED83E92008656BB /* timg.gif in Resources */,
+				32886B271E23932B00EEC9FD /* LICENSE in Resources */,
+				32886AF41E23783500EEC9FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32886AFD1E23783500EEC9FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32886B081E23783500EEC9FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E5F75FF76B9ECDEF3F4D50E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		52C15FA3A590C0CD98FE7718 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJCAlertTool/Pods-LJCAlertTool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0A3038CF511DF204074185F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LJCAlertTool/Pods-LJCAlertTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32886AE21E23783500EEC9FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32175CE81ED84237008656BB /* UIImage+GIF.m in Sources */,
+				32886B291E23932B00EEC9FD /* UIAlertView+Block.m in Sources */,
+				32886B281E23932B00EEC9FD /* README.md in Sources */,
+				32175CE31ED838DB008656BB /* UIViewController+HUD.m in Sources */,
+				32886AF11E23783500EEC9FD /* ViewController.m in Sources */,
+				32886B1E1E23787F00EEC9FD /* AlertToolViewController.m in Sources */,
+				32886B211E23840500EEC9FD /* AlertTools.m in Sources */,
+				32886AEE1E23783500EEC9FD /* AppDelegate.m in Sources */,
+				32886AEB1E23783500EEC9FD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32886AFB1E23783500EEC9FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32886B041E23783500EEC9FD /* LJCAlertToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32886B061E23783500EEC9FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32886B0F1E23783500EEC9FD /* LJCAlertToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32886B011E23783500EEC9FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32886AE51E23783500EEC9FD /* LJCAlertTool */;
+			targetProxy = 32886B001E23783500EEC9FD /* PBXContainerItemProxy */;
+		};
+		32886B0C1E23783500EEC9FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32886AE51E23783500EEC9FD /* LJCAlertTool */;
+			targetProxy = 32886B0B1E23783500EEC9FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32886AF21E23783500EEC9FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32886AF31E23783500EEC9FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32886AF71E23783500EEC9FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32886AF81E23783500EEC9FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32886B111E23783500EEC9FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32886B121E23783500EEC9FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32886B141E23783500EEC9FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 078EB22D386936845C9EA60B /* Pods-LJCAlertTool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9LQYCD8ZN3;
+				INFOPLIST_FILE = LJCAlertTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jason.LJCAlertTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32886B151E23783500EEC9FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79D729FDAD0E57998F7F79E8 /* Pods-LJCAlertTool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9LQYCD8ZN3;
+				INFOPLIST_FILE = LJCAlertTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jason.LJCAlertTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		32886B171E23783500EEC9FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9LQYCD8ZN3;
+				INFOPLIST_FILE = LJCAlertToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jason.LJCAlertToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJCAlertTool.app/LJCAlertTool";
+			};
+			name = Debug;
+		};
+		32886B181E23783500EEC9FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9LQYCD8ZN3;
+				INFOPLIST_FILE = LJCAlertToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jason.LJCAlertToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJCAlertTool.app/LJCAlertTool";
+			};
+			name = Release;
+		};
+		32886B1A1E23783500EEC9FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9LQYCD8ZN3;
+				INFOPLIST_FILE = LJCAlertToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jason.LJCAlertToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LJCAlertTool;
+			};
+			name = Debug;
+		};
+		32886B1B1E23783500EEC9FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9LQYCD8ZN3;
+				INFOPLIST_FILE = LJCAlertToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jason.LJCAlertToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LJCAlertTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32886AE11E23783500EEC9FD /* Build configuration list for PBXProject "LJCAlertTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32886B111E23783500EEC9FD /* Debug */,
+				32886B121E23783500EEC9FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32886B131E23783500EEC9FD /* Build configuration list for PBXNativeTarget "LJCAlertTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32886B141E23783500EEC9FD /* Debug */,
+				32886B151E23783500EEC9FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32886B161E23783500EEC9FD /* Build configuration list for PBXNativeTarget "LJCAlertToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32886B171E23783500EEC9FD /* Debug */,
+				32886B181E23783500EEC9FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32886B191E23783500EEC9FD /* Build configuration list for PBXNativeTarget "LJCAlertToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32886B1A1E23783500EEC9FD /* Debug */,
+				32886B1B1E23783500EEC9FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32886ADE1E23783500EEC9FD /* Project object */;
+}

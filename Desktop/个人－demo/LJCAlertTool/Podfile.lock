@@ -1,0 +1,15 @@
+PODS:
+  - BaiduMapKit (3.2.1)
+  - MBProgressHUD (0.9.2)
+
+DEPENDENCIES:
+  - BaiduMapKit
+  - MBProgressHUD (~> 0.9.1)
+
+SPEC CHECKSUMS:
+  BaiduMapKit: 9c748785aa3dddfc41dcb70c14b21ce32f680930
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+
+PODFILE CHECKSUM: 1887802eb706da51a3bf0bbb3d032f73fde20769
+
+COCOAPODS: 1.2.1
