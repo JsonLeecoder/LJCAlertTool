@@ -111,19 +111,6 @@
         }
     }];
 }
-/*!
- @brief KA拨打客服电话
- */
-//+ (void)KA_TelephontAlertView{
-//    UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"每天07:30-20:00,\n竭诚为您服务" message:nil cancelButtonTitle:@"取消" otherButtonTitle:@"确认拨打"];
-//    
-//    [alertView showUsingBlock:^(UIAlertView *alertView, NSInteger buttonIndex) {
-//        if (buttonIndex == 1) {
-//            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel://0571-83826315"]];
-//        }
-//    }];
-//}
-/*!
  @brief 提示开启定位权限
  */
 + (void)netWorkAlertView{
